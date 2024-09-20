@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>REcycleConnect - Recycling Assistance Page</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+        
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Recycle </span> Connect</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">Recycling Assistance</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Rewards Dashboard</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Community and Educational Hub</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="site-header section-padding-img site-header-image">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 header-info">
+                            <h1>
+                                <span class="d-block text-primary">Recycling</span>
+                                <span class="d-block text-dark">Assistance</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="images/assistance.png" class="header-image img-fluid" alt="">
+            </header>
+
+
+            <section class="team section-padding"></section>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="mb-5">Uplaod Picture<span> Feature</span></h2>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/gallery.png" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Open Images Gallery</h5>
+                                    <strong class="text-muted">Identify what Recycling bin would be used for the given waste image!</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#on">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/recent.png" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Most recent Images</h5>
+                                    <strong class="text-muted">Most recent images uplaoded from the other users from RecycleConnect</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#kely">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="team section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="mb-5">Depth of Information<span> - Of uplaoded Image</span></h2>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/box.jpeg" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Basic Information</h5>
+                                    <strong class="text-muted">Tap for more</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#don">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/box.jpeg" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Intermediate Information</h5>
+                                    <strong class="text-muted">Tap for more</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#kelly">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-lg-0 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/box.jpeg" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Detailed Information</h5>
+                                    <strong class="text-muted">Tap for</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#marie">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="testimonial section-padding">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-lg-9 mx-auto col-11">
+                            <h2 class="text-center">Customer love, <br> <span>Recycle</span> Connect</h2>
+    
+                            <div class="slick-testimonial">
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead"></p>
+                                    <a href="product-detail.html" class="product-title-link">RecycleConnect has transformed the way I recycle at home. The platform makes it so easy to track my progress, and the rewards system has been a great motivator. I’ve earned discounts on my utilities just by recycling!</a>
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg" class="img-fluid custom-circle-image me-3" alt="">
+    
+                                        <span>George, <strong class="text-muted">User since past 5 months</strong></span>
+                                    </div>
+                                </div>
+    
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead"></p>
+                                    <a href="product-detail.html" class="product-title-link">As someone who used to find recycling confusing, RecycleConnect has been a game-changer. The tutorials are super helpful, and the automatic notifications make sure I never miss a recycling pick-up. It’s amazing to see the positive impact I’m having on the environment!</a>
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/beautiful-woman-face-portrait-brown-background.jpeg" class="img-fluid custom-circle-image me-3" alt="">
+    
+                                        <span>Sandar, <strong class="text-muted">User since past 2 months</strong></span>
+                                    </div>
+                                </div>
+    
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead"></p>
+                                    <a href="product-detail.html" class="product-title-link">RecycleConnect has made recycling fun and rewarding! I love how simple it is to follow the recycling guidelines, and the points I earn help me save on eco-friendly products. It’s a win-win for me and the environment!</a>
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/portrait-british-woman.jpeg" class="img-fluid custom-circle-image me-3" alt="">
+    
+                                        <span>Marie, <strong class="text-muted">User since past 4 months</strong></span>
+                                    </div>
+                                </div>
+    
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead"></p>
+                                    a href="product-detail.html" class="product-title-link">Well to be honest, I have used alot of Recycling website but this webiste caught my eye the most with its design factor and simplicity and  easy to use!</a>
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/woman-wearing-mask-face-closeup-covid-19-green-background.jpeg" class="img-fluid custom-circle-image me-3" alt="">
+    
+                                        <span>Catherine, <strong class="text-muted">User since past 20 days</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Recycle</a> Connect</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>RecycleConnect</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">KARAN SOOD</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Recycling Assistance</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Rewards</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- TEAM MEMBER MODAL -->
+        <div class="modal fade" id="don" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Is this recyclable?</h3>
+
+                        <h6 class="text-muted">Yes, this item in the uploaded picture is recyclable</h6>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4">Place it in your blue bin for plastics.</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Make sure the item is clean and dry before recycling.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- TEAM MEMBER MODAL -->
+        <div class="modal fade" id="kelly" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Why recycle this item?</h3>
+
+                        <h6 class="text-muted">Mentioned in the end</h6>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4">Processing Method: Your recycling facility processes this by sorting, cleaning, and repurposing it into new products.</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Recycling this material reduces waste in landfills and helps create new products. Based on the uploaded image, this plastic can be transformed into reusable materials.</p>
+                            </div>
+
+                        
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- TEAM MEMBER MODAL -->
+        <div class="modal fade" id="marie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Material Breakdown and Best Practices</h3>
+
+                        <h6 class="text-muted">  Material Type: The uploaded item is identified as HDPE (High-Density Polyethylene), a common plastic used in packaging.</h6>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4">Best Practices</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Prepare for recycling: "Ensure the item is free of food or liquid."
+                                    Avoid contamination: "Don't include non-recyclable components (e.g., plastic lids or non-recyclable parts)."
+                                    </p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p>End Products: "Recycled HDPE is used in making piping, plastic lumber, and various industrial products.".</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>Where to find?</strong></li>
+
+                            <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
